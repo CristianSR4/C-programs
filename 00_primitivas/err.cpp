@@ -1,10 +1,9 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(){
 
-    printf("hola\n");
+  fprintf(stderr, "stderr:The world is a vampire.\n");
 
   return EXIT_SUCCESS;
 }
