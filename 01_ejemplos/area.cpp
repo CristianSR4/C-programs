@@ -3,19 +3,19 @@
 #include <stdlib.h>
 
 int main(){
-    int lado, area, perimetro;
+    float lado, area, perimetro;
 
     system("toilet --gay -fpagga CUADRADO");
 
     /* Entrada de datos */
     printf("Lado: ");
-    scanf(" %i", &lado);
+    scanf(" %f", &lado);
     /* Calculos */
     area = lado * lado;
     perimetro = 4 * lado;
     /* Salida de datos */
-    printf("Area; %i\n"
-            "Perimetro: %i\n",
+    printf("Area; %f\n"
+            "Perimetro: %f\n",
             area, perimetro );
   return EXIT_SUCCESS;
 }
