@@ -24,6 +24,7 @@ int main(){
   frase[2] == 'v'; //Notacion de matrices
   *d == 'v'; //Notacion de punteros
   *(d+2) == 'm'; //el 2 esta en aritmetica de punteros
+  *d +2 == 'x'; 
 
   printf(" d ocupa %lu bytes.\n", sizeof(d));
 
