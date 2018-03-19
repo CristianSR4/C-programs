@@ -4,11 +4,11 @@
 
 #define PT 3.14159
 
-float procesar(float radio);
+float procesar(float radio);   /* prototipo de función */
 
 main()
 {
-    float radio, area;
+    float radio, area;         /* declaración de variables */
 
     printf("Radio = ");
     scanf("%f", &radio);
@@ -22,10 +22,10 @@ main()
 
 }
 
-    float procesar (float r)
+    float procesar (float r)   /* definición de función */
     {
 
-        float a;
+        float a;               /* declaración de variable local */
 
         a = PT * r * r;
         return(a);
