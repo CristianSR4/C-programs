@@ -20,7 +20,7 @@ int main() {
   suma = a + b;
   resta = a - b;
   multiplicacion = (suma)*(resta);
-  cuadrado = a^a - b^b;
+  cuadrado = (a*a) - (b*b);
 	
   printf("El resultado de la multiplicacion es %i", multiplicacion);
   printf("\n");
