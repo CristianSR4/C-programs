@@ -7,7 +7,6 @@ int main(){
 
   int primerNumero;
   int segundoNumero;
-  int distinto;
   int multiplicacion;
 
   printf("Teclee un número: ");
