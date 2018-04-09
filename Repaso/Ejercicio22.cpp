@@ -10,19 +10,19 @@ int numero;
   printf("Teclea un número: ");
   scanf("%i", &numero);
   
-   if ((numero<=1) && (numero>=10)) {
+   if ((numero<=1) || (numero>=10)) {
     printf("No escogiste un numero dentro del rango, otra oportunidad.\n");
     printf("Teclea otro numero: ");
-    scanf("%i", &numero); }
-  else
-    if ((numero<=1) && (numero>=10)) {
+    scanf("%i", &numero);
+     }
+    if ((numero<=1) || (numero>=10)) {
      printf("No escogiste un numero dentro del rango, otra oportunidad.\n");
      printf("Teclea otro numero, ultima oportunidad: ");
-     scanf("%i", &numero); }
-  else
-    if ((numero<=1) && (numero>=10)) 
-     printf("Lo siento no acerto el rango.\n");
-   else
+     scanf("%i", &numero);
+      }
+    if ((numero<=1) || (numero>=10)) 
+     printf("Lo siento no acertaste el numero dentro del rango.\n");
+    else
     if ((numero>=1) && (numero<=10))
     printf("Enhorabuena, su numero esta dentro del rango.\n");
  
