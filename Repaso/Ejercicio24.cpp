@@ -1,3 +1,4 @@
+/*Programa que me pregunta la contraseña tantas veces hasta que la acierto. */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,10 +10,11 @@ int numero;
  scanf("%d", &numero);
   while (numero!=4567) {
 
-   if (numero==4567) printf("Es Correcto.\n");
-    else printf("Es incorrecto.\n");
+         printf("Es incorrecto.\n");
          printf("Teclea otro número (0 para salir): ");
          scanf("%d", &numero);
 }
+   printf("Es Correcto.\n");
+
   return EXIT_SUCCESS;
 }
