@@ -1,3 +1,4 @@
+/*Programa que da 6 oportunidades para adivinar el numero, y te va diciendo si te quedas corto o te pasas*/
 
 #include <stdio.h>
 #include <stdlib.h>
