@@ -1,3 +1,5 @@
+/*Pide numeros los guarda en una tabla, los suma y te hace una media.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
