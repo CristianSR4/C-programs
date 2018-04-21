@@ -5,12 +5,13 @@
 
 int main(){
 
-    char gets(char frase[40]); 
+    char frase[40]; 
 
     printf("Escribe tu frase: ");
-    scanf("%s ", &frase);
+    scanf("%s ", frase);
 
-  printf("Tu frase es: %s", gets(frase));
+   for (int l=0; l<40; l++)
+  printf("Tu frase es: %s ", gets(frase));
 
     printf("\n");
 
