@@ -1,3 +1,5 @@
+/*Escribo dos palabras y me escribe la ultima palabra, la primera.*/
+
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
