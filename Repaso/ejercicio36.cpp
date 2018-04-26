@@ -1,4 +1,4 @@
-
+/* Escribe una frase y te la imprime tal y como es con el fgets.*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,10 +8,10 @@ int main(){
     char frase[40]; 
 
     printf("Escribe tu frase: ");
-    scanf("%s ", frase);
+    fgets(frase, 40, stdin);
 
-   for (int l=0; l<40; l++)
-  printf("Tu frase es: %s ", gets(frase));
+   
+   printf("Tu frase es: %s ", frase);
 
     printf("\n");
 
