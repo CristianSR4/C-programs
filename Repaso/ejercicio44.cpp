@@ -6,16 +6,12 @@
 int suma (int op1, int op2) {
     return op1 + op2;
 }
-  
-  
+   
 int main(){
 
-    int resultado = suma;
-    printf("Escribe primer valor: ");
-    scanf("%i", &op1);
-    printf("Escribe segundo valor: ");
-    scanf("%i", &op2);
-    printf("%i\n", resultado);
+    int resultado;
+    resultado = suma(2,3);
+    printf("El resultado de la suma es: %i\n", resultado);
 
   return EXIT_SUCCESS;
 }
