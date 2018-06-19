@@ -16,7 +16,7 @@ int main(){
     int l;
     int opcion;
 
-    for(l=0; l<gente; l++) {
+    do {
     printf("Escribe nombre: ");
     fgets(persona.nombre, 15 , stdin);
     fflush(stdin);
@@ -31,9 +31,11 @@ int main(){
     printf("Escribe su edad: ");
     scanf("%i", &persona.edad);
 
-   // while(scanf("%[^\n]", persona.nombre[l++]));
-    }
+   
+    } while(scanf("%[^\n]", &persona.nombre));
+    
 
+    printf("Escoja una opción.\n");
     printf("1.Mostrar la lista de todos los nombre.\n");
     printf("2.Mostrar las personas de una cierta edad.\n");
     printf("3.Mostrar las personas cuya inicial sea la que el usuario indique\n");
