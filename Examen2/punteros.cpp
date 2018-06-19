@@ -14,6 +14,5 @@ int main(){
 
     free(puntero);
 
-
   return EXIT_SUCCESS;
 }

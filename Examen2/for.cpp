@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define N 3
+
 int main(){
 
     double suma;
-    double a[3] = {5, 8, 2};
-    double b[3] = {3, 2, 5};
+    double a[N] = {1, 2, 3};
+    double b[N] = {1, 2, 3};
 
-    for(int d=0; d<3; d++){
-      suma += a[d] * b[d];
+    for(int i=0; i<N; i++){
+      suma += a[i] * b[i];
   }
       printf("%2lf\n", suma);
      
