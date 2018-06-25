@@ -21,7 +21,13 @@ int main(){
         if(es_primo(numero))
             array[index++] = numero;
         numero++;
-    }
+}
+	for(int i=0; i<N; i++){
+	printf("Los primos son: %i\n", array[i]);
+
+	}
+    
+
 
     return EXIT_SUCCESS;
 }

@@ -8,14 +8,16 @@ int suma (int op1, int op2) {
     scanf("%i", &op1);
     printf("Esciribe el segundo operando: ");
     scanf("%i", &op2);
-    return op1 + op2;
+   return op1+ op2;
 
 }
    
 int main(){
 
+    int op1, op2;
     int resultado;
-    resultado = suma(&op1 + &op2);
+    
+    resultado = suma(op1,op2);
     printf("El resultado de la suma es: %i\n", resultado);
 
   return EXIT_SUCCESS;
